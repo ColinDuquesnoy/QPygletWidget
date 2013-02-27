@@ -21,7 +21,7 @@ Usage
 Here is a simple example:
 
 ```python
-from widget import QPygletWidget
+from qpygletwidget import QPygletWidget
 
 
 class MyPygletWidget(QPygletWidget):
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 You can run the script by issuing the following command::
 
 ```bash
-  python widget.py
+  python qpygletwidget.py
 ```
 
 If you are using PyQt instead of PySide, the port should be really easy as the only thing 
