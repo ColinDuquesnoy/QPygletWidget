@@ -7,6 +7,8 @@ This has been tested on Ubuntu 12.04 and Windows 7.
 
 License
 ---------
+There is no license as this is more a reminder than anything else.
+
 You are free to use this file without any restrictions. 
 
 Requirements
