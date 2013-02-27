@@ -5,7 +5,6 @@ PySide application: QPygletWidget
 It also provides a basic usage example.
 """
 import sys
-from PySide.QtCore import QSize
 import pyglet
 pyglet.options['shadow_window'] = False
 pyglet.options['debug_gl'] = False
@@ -177,7 +176,7 @@ class MyPygletWidget(QPygletWidget):
         self.sprite = pyglet.sprite.Sprite(pyglet.resource.image("logo.png"))
         self.label = pyglet.text.Label(
             text="This is a pyglet label rendered in a Qt widget :)")
-        self.setMinimumSize(QSize(640, 480))
+        self.setMinimumSize(QtCore.QSize(640, 480))
 
     def on_draw(self):
         self.sprite.draw()
