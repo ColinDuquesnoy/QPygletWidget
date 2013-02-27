@@ -1,5 +1,6 @@
 """
-This module contains the definiton of a pyglet widget for pyside.
+This module contains the definiton of a pyglet widget for a 
+PySide application: QPygletWidget
 
 It also provides a basic usage example.
 """
@@ -175,7 +176,7 @@ class MyPygletWidget(QPygletWidget):
     def on_init(self):
         self.sprite = pyglet.sprite.Sprite(pyglet.resource.image("logo.png"))
         self.label = pyglet.text.Label(
-            text="This is a pyglet label rendered in a QGlWidget :)")
+            text="This is a pyglet label rendered in a Qt widget :)")
         self.setMinimumSize(QSize(640, 480))
 
     def on_draw(self):
