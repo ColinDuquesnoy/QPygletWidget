@@ -3,7 +3,7 @@ QPygletWidget
 
 A widget to easily display **one** pyglet scene in a PySide/Qt application.
 
-This has been tested on Ubuntu 12.04 and Windows 7.
+This has been tested on Ubuntu 12.04, Windows XP and Windows 7.
 
 License
 ---------
