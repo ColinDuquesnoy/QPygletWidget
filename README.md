@@ -58,3 +58,7 @@ You can run the script by issuing the following command::
 
 If you are using PyQt instead of PySide, the port should be really easy as the only thing 
 you will probably have to do is to replace **from PySide** by **from PyQt4**
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ColinDuquesnoy/qpygletwidget/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
